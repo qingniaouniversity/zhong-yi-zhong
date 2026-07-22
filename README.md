@@ -10,6 +10,20 @@
 - 复制总览和白话解释
 - 当前页面最近解释
 
+## 效果预览
+
+选中难懂中文后，右侧会先给一句总览，再给白话解释和关键词。
+
+![中译中主解释效果](docs/images/main-explanation.png)
+
+追问也支持流式输出，可以围绕当前原文继续问。
+
+![中译中流式追问效果](docs/images/streaming-follow-up.png)
+
+支持“更白话 / 标准 / 稍深入”三档解释，并保留当前页面最近解释。
+
+![中译中深浅切换和最近解释](docs/images/depth-and-history.png)
+
 ## 安装
 
 1. 打开 Chrome 或 Edge 的扩展管理页。
