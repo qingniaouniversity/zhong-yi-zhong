@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  background: #f8fafc;
+  color: #111827;
+  font: 15px/1.6 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+.settings {
+  width: min(720px, calc(100vw - 32px));
+  margin: 48px auto;
+}
+
+.settings-header {
+  margin-bottom: 24px;
+}
+
+.settings-header h1 {
+  margin: 0;
+  font-size: 32px;
+  line-height: 1.2;
+}
+
+.settings-header p {
+  margin: 8px 0 0;
+  color: #64748b;
+}
+
+.settings-form {
+  display: grid;
+  gap: 16px;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  background: #ffffff;
+  padding: 20px;
+}
+
+label {
+  display: grid;
+  gap: 6px;
+}
+
+label span {
+  color: #334155;
+  font-weight: 700;
+}
+
+input {
+  min-height: 42px;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  padding: 0 11px;
+  color: #111827;
+  font: inherit;
+}
+
+input:focus {
+  outline: 2px solid #93c5fd;
+  outline-offset: 1px;
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 4px;
+}
+
+button {
+  min-height: 40px;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  background: #ffffff;
+  color: #111827;
+  cursor: pointer;
+  font: inherit;
+  font-weight: 700;
+  padding: 0 14px;
+}
+
+button[type="submit"] {
+  border-color: #111827;
+  background: #111827;
+  color: #ffffff;
+}
+
+button:hover {
+  filter: brightness(0.96);
+}
+
+.status {
+  min-height: 24px;
+  margin: 0;
+  color: #166534;
+}
